@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <conio.h>
+main() {
+     const float pi=3.14;
+     float  r=2.5;
+     clrscr();
+    printf("area of circle is %.2f",pi*r*r);
+    getch();
+    return 0;
+}
+

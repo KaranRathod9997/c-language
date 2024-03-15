@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <conio.h>
+main() {
+      float b=2.27 h=9.35;
+     clrscr();
+    printf("area of rectangle is %.2f",0.5*b*h);
+    getch();
+    return 0;
+}
