@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+ main(){
+	clrscr();
+
+	printf("1.\n");
+	printf("\nmy name is karan rathod.\n my age is 19 years.\nmy school name is shreeswaminarayan gurukul, chital.");
+
+	printf("\n\n2.\n");
+	printf("---------\n|\t|\nR\t|\nN\t|\nW\t|\n|\t|\n---------");
+
+	printf("\n\n3.\n");
+	printf("\n\n*\n\n");
+
+
+	printf("\n\n4.\n");
+	printf("\n\n*\n*\t*\t  *\n      *  *      \n     *    *    \n    *      * \n   \n  \n");
+
+	getch();
+
+}

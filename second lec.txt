@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    
+   int a=20, b=10;
+   
+   printf("\n value of a is 20.");
+   printf("\n value of b is 10.");
+   
+   printf("\n\n Addition of 20 and 10 is %d.",a+b);
+   printf("\n Subtraction of 20 and 10 is %d.",a-b);
+   printf("\n Multiplication of 20 and 10 is %d.",a*b);
+   printf("\n Division of 20 and 10 is %d.",a/b);
+
+    return 0;
+}
