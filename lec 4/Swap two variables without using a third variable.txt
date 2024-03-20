@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    // Input two numbers from user
+    printf("Enter value of a: ");
+    scanf("%d", &a);
+    printf("Enter value of b: ");
+    scanf("%d", &b);
+
+    // Displaying values before swapping
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+
+    // Swapping without a third variable using arithmetic operations
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    // Displaying values after swapping
+    printf("After swapping: a = %d, b = %d\n", a, b);
+
+    return 0;
+}
