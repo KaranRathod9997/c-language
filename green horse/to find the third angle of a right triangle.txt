@@ -1,0 +1,19 @@
+// Program to find the third angle of a right triangle if two other angles are given.
+#include <stdio.h>
+
+int main() {
+    
+    int frist_angle, second_angle, third_angle;
+    
+    printf("enter the measure of the frist angle:");
+    scanf("%d",&frist_angle);
+    
+    printf("enter the measure of the second angle:");
+    scanf("%d",&second_angle);
+
+    third_angle = 180 - (frist_angle + second_angle);
+    
+    printf("\nThe measure of the third angle is %d degrees",third_angle);
+
+    return 0;
+}
