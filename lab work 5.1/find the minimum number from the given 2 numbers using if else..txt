@@ -1,0 +1,22 @@
+// Program to find the minimum number from the given 2 numbers using if else.
+
+#include <stdio.h>
+
+int main() {
+    
+    int a,b;
+    
+    printf("Enter a value of the first number:");
+    scanf("%d",&a);
+    
+    printf("\nEnter a value of the second number:");
+    scanf("%d",&b);
+    
+    if(a<b){
+        printf("\nThe minimum value is:%d",a);
+    }else{
+         printf("\nThe minimum value is:%d",b);
+    }
+    
+    return 0;
+}

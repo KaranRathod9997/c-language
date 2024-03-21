@@ -1,0 +1,21 @@
+// Program to find if a given number is neutral or not using a ladder if else.
+
+#include <stdio.h>
+
+int main() {
+    
+    int no;
+    
+    printf("Enter any number:");
+    scanf("%d",&no);
+    
+    if(no>0){
+        printf("\nThis number is Positive:%d",no);
+    }else if(no<0){
+         printf("\nThis number is Negative:%d",no);
+    }else{
+        printf("\nThis number is Neutral:%d",no);
+    }
+    
+    return 0;
+}
