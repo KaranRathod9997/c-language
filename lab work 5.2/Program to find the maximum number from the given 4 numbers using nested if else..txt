@@ -1,0 +1,52 @@
+//  Program to find the maximum number from the given 4 numbers using nested if else.
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, num3, num4, max_num;
+    
+     // Input
+    printf("enter the frist number:");
+    scanf("%d",&num1);
+    
+    printf("enter the second number:");
+    scanf("%d",&num2);
+    
+    printf("enter the third number:");
+    scanf("%d",&num3);
+    
+    printf("enter the fourth number:");
+    scanf("%d",&num4);
+    
+    // Logic to find the maximum number
+    if (num1 >= num2) {
+        if (num1 >= num3) {
+            if (num1 >= num4) {
+                max_num = num1;
+            }else{
+                max_num = num4;
+            }
+        }else{
+            max_num = num3;
+        }
+    }else{
+        if (num2 >= num3){
+            if(num2 >= num4){
+                max_num = num2;
+            }else{
+                max_num = num4;
+            }
+        }else{
+            if(num3 >= num4){
+                max_num = num3;
+            }else{
+                max_num = num4;
+            }
+        }
+    }
+    
+    // output
+    printf("\n The maximum value is : %d", max_num);
+
+    return 0;
+}
