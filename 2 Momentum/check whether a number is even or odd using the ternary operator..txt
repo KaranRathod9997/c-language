@@ -1,0 +1,23 @@
+// a Program to check whether a number is even or odd using the ternary operator.
+
+#include <stdio.h>
+
+int main() {
+    
+    int num;
+
+    // Take input from the user
+    
+    printf("Enter any number: ");
+    scanf("%d", &num);
+
+    // Check if the number is even or odd using the ternary operator
+    
+    const char* result = (num % 2 == 0) ? "This number is Even." : "This number is Odd.";
+
+    // Print the result
+    
+    printf("%s\n", result);
+
+    return 0;
+}
