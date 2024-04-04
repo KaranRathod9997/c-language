@@ -1,0 +1,29 @@
+// a Program to print leap years between two given numbers using a while loop.
+
+#include <stdio.h>
+
+int main() {
+    
+    int first_year , last_year;
+    
+    // Asking user to input the first and second numbers
+        
+    printf("enter frist year:");
+    scanf("%d",&first_year);
+    
+     printf("enter last year:");
+    scanf("%d",&last_year);
+    
+    // Using while loop to print leap years between the given numbers
+    
+    printf("\nLeap years between %d and %d are:\n", first_year, last_year);
+    
+    while(first_year <= last_year){
+        if(first_year % 4 == 0 ){
+            printf("%d  ",first_year);
+        }
+        first_year++;
+    }
+
+    return 0;
+}

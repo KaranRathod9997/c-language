@@ -1,0 +1,23 @@
+// a Program to print 1 to N using a while loop.
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    
+    // Asking user to input N
+    
+    printf("Enter the value of N: ");
+    scanf("%d", &n);
+    
+    int num = 1;
+
+    // Using while loop to print numbers from 1 to N
+    
+    while (num <= n) {
+        printf("%d\n", num);
+        num++;
+    }
+
+    return 0;
+}

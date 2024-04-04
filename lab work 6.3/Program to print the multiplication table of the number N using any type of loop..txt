@@ -1,0 +1,23 @@
+//  a Program to print the multiplication table of the number N using any type of loop.
+
+#include <stdio.h>
+
+int main() {
+    
+    int n,i;
+    
+    // Asking user to input the value of n
+    
+    printf("enter any number:");
+    scanf("%d",&n);
+    
+    // Print the multiplication table    
+    
+     printf("\nMultiplication table of %d:\n", n);
+    
+    for(i=1;i<=10;i++){
+        printf("\n %d * %d = %d",n,i,n*i);
+    }
+
+    return 0;
+}

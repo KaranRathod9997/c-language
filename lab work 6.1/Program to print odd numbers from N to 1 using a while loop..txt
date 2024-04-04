@@ -1,0 +1,25 @@
+// a Program to print odd numbers from N to 1 using a while loop.
+
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    // Asking user to input n
+    
+    printf("Enter any number: ");
+    scanf("%d", &n);
+
+    int num = n;
+
+    // Using while loop to print odd numbers from n to 1
+    
+    while (num >= 1) {
+        if (num % 2 != 0) {
+            printf("%d ", num);
+        }
+        num--;
+    }
+
+    return 0;
+}

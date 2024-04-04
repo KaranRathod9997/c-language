@@ -1,0 +1,23 @@
+// a Program to print the sum of all numbers from 1 to N using for loop.
+
+#include <stdio.h>
+
+int main() {
+    
+    int n , sum=0, i=1;
+    
+    // Asking user to input the value of n
+    
+    printf("enter any number:");
+    scanf("%d",&n);
+    
+    // Using a for loop to calculate the sum of all numbers from 1 to N
+    
+    for(i;i<=n;i++){
+        sum=sum+i;
+    }
+    
+    printf("The sum of all numbers: %d\n", sum);
+
+    return 0;
+}

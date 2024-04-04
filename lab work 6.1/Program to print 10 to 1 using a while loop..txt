@@ -1,0 +1,16 @@
+// a Program to print 10 to 1 using a while loop.
+
+#include <stdio.h>
+
+int main() {
+    int num = 10;
+
+    // Using while loop to print numbers from 10 to 1
+    
+    while (num >= 1) {
+        printf(" %d", num);
+        num--;
+    }
+    
+    return 0;
+}

@@ -1,0 +1,23 @@
+//   a Program to print even numbers from 1 to N using a do-while loop.
+
+#include <stdio.h>
+
+int main() {
+    int num, i=1;
+    
+    // Asking user to input the value of num
+     
+    printf("enter the value of num:") ;
+    scanf("%d",&num);
+
+   // Using do-while loop to print even numbers from 1 to num
+   
+   do{
+     if(i % 2 == 0){
+         printf(" %d",i);
+     }
+     i++;
+   }while(i<=num);
+      
+    return 0;
+}

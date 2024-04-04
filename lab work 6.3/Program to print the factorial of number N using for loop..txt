@@ -1,0 +1,25 @@
+// a Program to print the factorial of number N using for loop.
+
+#include <stdio.h>
+
+int main() {
+    
+    int n , mult=1, i=1;
+    
+    // Asking user to input the value of n
+    
+    printf("enter any number:");
+    scanf("%d",&n);
+    
+   // Calculating factorial using a for loop
+    
+    for(i;i<=n;i++){
+        mult=mult*i;
+    }
+       
+    // Printing the factorial
+       
+    printf("The sum of all numbers: %d\n", mult);
+
+    return 0;
+}

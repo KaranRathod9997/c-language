@@ -1,0 +1,25 @@
+//   a Program to print the Fibonacci series up to N numbers using a for loop.
+
+#include <stdio.h>
+
+int main() {
+    int f=0,s=1,t,i,n;
+    
+    // Asking user to input the value of N
+    
+    printf("enter any nnumber:");
+    scanf("%d",&n);
+    
+    // Printing the Fibonacci series using a for loop
+    
+    printf("\nFibonacci series up to %d numbers:\n", n);
+    
+    for(i=1;i<=n;i++){
+        printf(" %d",f);
+        t=f+s;
+        f=s;
+        s=t;
+    }
+
+    return 0;
+}
