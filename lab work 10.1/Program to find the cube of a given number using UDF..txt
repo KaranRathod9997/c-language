@@ -1,0 +1,21 @@
+// Write a Program to find the cube of a given number using UDF.
+
+#include <stdio.h>
+
+void cube(int a);
+
+void main() {
+    
+  int a;
+  
+  printf("enter any number:");
+  scanf("%d",&a);
+  
+  cube(a);
+}
+
+void cube(int a){
+    
+    printf("cube id:%d",a*a*a);
+    
+}
