@@ -1,11 +1,8 @@
-//  a Program to input electricity unit charges and calculate the total electricity bill according to the given condition:
 
 #include <stdio.h>
 
 int main() {
-    
     int units;
-    
     float bill = 0;
 
     printf("Enter electricity units: ");
